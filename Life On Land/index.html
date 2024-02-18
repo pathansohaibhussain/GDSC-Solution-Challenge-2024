@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TerraLife</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">TerraLife</h1>
+								<h6 class="tm-site-description">Cultivating Eco Harmony</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="solutions.html" class="tm-nav-link">Solutions</a></li>
+								<li class="tm-nav-li"><a href="team.html" class="tm-nav-link">Team</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Welcome to TerraLife</h2>
+				<p class="col-12 text-center">Explore Resources for Conservation and Restoration Efforts.
+					Join Us in the Fight Against Deforestation and Land Degradation.
+					Empowering Communities for a Greener Future.
+					Engage with Targeted Initiatives to Safeguard Biodiversity.
+					Commit to Sustainable Practices for a Thriving Earth.
+					Advocate for Policy Integration and Ecosystem Planning.
+					Together, We Can Ensure a Sustainable Legacy for Generations to Come</p>
+			</header>
+			<!-- Insert your video below this line -->
+			<div class="col-12 text-center">
+				<video controls autoplay loop muted class="tm-video">
+					<source src="vid/vid1.mp4" type="video/mp4">
+			
+				</video>
+			</div>
+			<!-- End of video section -->
+			<br><br>
+			<div class="tm-paging-links">
+				<nav>
+					<h2 class="col-12 text-center tm-section-title">The Targets</h2>
+				</nav>
+			</div>
+
+			<!-- Gallery -->
+			<div class="row tm-gallery">
+				<!-- gallery page 1 -->
+				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/gallery/01.jpeg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">End Deforestation and Restore Degraded Forests 15.2</h4>
+								<p class="tm-gallery-description">This target addresses the urgent need to protect and restore forests, which play a crucial role in mitigating climate change, conserving biodiversity, and providing essential ecosystem services.
+								</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/gallery/02.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">End Desertification and Restore Degraded Land 15.3</h4>
+								<p class="tm-gallery-description"> Desertification and land degradation are pressing environmental challenges that have significant impacts on livelihoods, ecosystems, and biodiversity.
+								</p>
+							
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/gallery/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Protect Biodiversity and Natural Habitats 15.5</h4>
+								<p class="tm-gallery-description">Biodiversity loss and habitat degradation threaten the stability of ecosystems and the survival of countless species. By focusing on this target, it can help preserve biodiversity, protect endangered species, and maintain the integrity of vital ecosystems.
+								</p>
+								
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Combat Global Poaching and Trafficking 15.C</h4>
+								<p class="tm-gallery-description">Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities.</p>
+								
+							</figcaption>
+						</figure>
+					</article>
+					
+					 <!-- gallery page 1 -->
+				
+				</div> <!-- gallery page 3 -->
+			</div>
+			<div class="tm-section tm-container-inner">
+				<div class="row">
+					
+					<div class="col-md-6">
+						
+							<a href="solutions.html" class="tm-btn tm-btn-default tm-right">Solutions</a>
+							
+							
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2024 TerraLife 
+            
+            | Design: <a rel="nofollow" href="#">TerraLife</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>
